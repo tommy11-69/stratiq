@@ -16,6 +16,8 @@
     "format:fix": "prettier --write .",
     "test": "vitest run",
     "check:engine-boundary": "tsx scripts/check-engine-boundary.ts",
+    "registry:extract": "uv run --with pypdf python scripts/extract-toolkit-pages.py",
+    "registry:seed": "tsx scripts/build-initial-registry.ts",
     "check": "pnpm run lint && pnpm run typecheck && pnpm run check:engine-boundary && pnpm run test"
   },
   "devDependencies": {

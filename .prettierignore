@@ -6,6 +6,10 @@ pnpm-lock.yaml
 source/
 *.pdf
 
+# Data & Cache
+packages/registry/data/
+packages/registry/seed/initial_release.json
+
 # Preserve specification documents
 docs/
 *.md
