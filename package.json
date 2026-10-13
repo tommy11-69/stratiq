@@ -21,6 +21,7 @@
     "check": "pnpm run lint && pnpm run typecheck && pnpm run check:engine-boundary && pnpm run test"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.9",
     "@eslint/js": "^9.21.0",
     "@types/node": "^22.13.9",
     "eslint": "^9.21.0",
