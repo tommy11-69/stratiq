@@ -1,0 +1,13 @@
+# Evaluation targets for GoUp AI Performance Marketing Intelligence Agent
+# Provisional targets, subject to owner approval (OD-07)
+targets:
+  formula_arithmetic_tests: 100%
+  w1_w6_truth_table_tests: 100%
+  scale_despite_failed_or_unknown_required_gate: 0
+  invented_numbers_proof_benchmarks: 0
+  unbound_narrative_numeric_claims: 0
+  cross_client_access_success: 0
+  replay_determinism: 100%
+  source_strength_provisional_fidelity: 95%
+  required_blocker_named_when_blocked: 95%
+  valid_complete_cases_wrongly_blocked: 10%

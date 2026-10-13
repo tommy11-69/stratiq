@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/engine" },
+    { "path": "./packages/registry" },
+    { "path": "./packages/model" },
+    { "path": "./packages/gate" },
+    { "path": "./packages/eval" },
+    { "path": "./apps/server" },
+    { "path": "./apps/web" }
+  ]
+}
